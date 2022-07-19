@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@1,300&family=Poppins:wght@500&display=swap');
+
+body {
+
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-section {
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    height: 600px;
+    margin-left: 80px;
+    background-color: #161616;
+}
+
+.header-info {
+    margin: 30px 119px;
+}
+
+.header-top {
+    font-size: 55px;
+}
+
+.header-details {
+    color: white;
+    margin: 0px;
+}
+
+.header-button {
+
+    background-color: #DD0000;
+    color: white;
+    border-radius: 7px;
+    padding: 16px 25px;
+    margin-top: 20px;
+}
+
+.fa-greater-than {
+    margin-left: 8px;
+}
+
+.header-picture img {
+    margin-right: 66px;
+    margin-top: 10px;
+    width: 581px;
+    height: 550px;
+}
