@@ -318,15 +318,12 @@ upcoming section design end */
      mobile responsive media quary up to 576px
      ----------------- */
 
-@media (max-width: 676px) {
+@media screen and (max-width: 674px) {
     .header-section {
-
-        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
         height: 100%;
         width: 100%;
-        margin-left: 0px;
-
-
     }
 
     .header-info {
@@ -339,8 +336,8 @@ upcoming section design end */
     }
 
     .header-picture img {
-        width: 70%;
-        height: 70%;
+        height: 50%;
+
         text-align: center;
         margin-left: 85px;
 
@@ -381,8 +378,8 @@ upcoming section design end */
     }
 
     /*------------
-     view all responsive button 
-    ------------- */
+         view all responsive button 
+        ------------- */
     .all-blog-item-button {
         display: block;
     }
