@@ -258,6 +258,16 @@ upcoming section design end */
         display: flex;
         display: flex;
         flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+
+    .header-picture img {
+        width: 50%;
+        height: 50%;
+        text-align: center;
+        margin-left: 85px;
+        margin-top: 200px;
     }
 
 
@@ -314,7 +324,7 @@ upcoming section design end */
     .header-section {
 
         flex-wrap: wrap;
-        height: 800px;
+        height: 900px;
         width: 100%;
 
 
@@ -334,7 +344,7 @@ upcoming section design end */
         height: 50%;
         text-align: center;
         margin-left: 85px;
-        margin-top: 200px;
+        margin-top: 250px;
     }
 
 
