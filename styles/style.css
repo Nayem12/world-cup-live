@@ -5,8 +5,7 @@ icon family added
 @import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@1,300&family=Poppins:wght@500&display=swap');
 
 
-body {
-
+* {
     font-family: 'Poppins', sans-serif;
 }
 
@@ -16,16 +15,19 @@ body {
 .container {
     display: 80em;
     margin: auto;
+    display: flex;
+    justify-content: center;
 }
 
 .header-section {
     display: flex;
     justify-content: center;
     display: 80em;
-    margin: auto;
+    margin-top: 64px;
     width: 1200px;
     height: 600px;
     background-color: #161616;
+    border-radius: 15px;
 }
 
 .header-info {
@@ -34,11 +36,13 @@ body {
 
 .header-top {
     font-size: 55px;
+
 }
 
 .header-details {
     color: white;
-    margin: 0px;
+    width: 420px;
+    max-width: 100%;
 }
 
 .header-button {
@@ -50,15 +54,19 @@ body {
     margin-top: 20px;
 }
 
+.header-button:hover {
+    background-color: white;
+    color: orange;
+}
+
 .fa-greater-than {
     margin-left: 8px;
 }
 
 .header-picture img {
-    margin-right: 66px;
-    margin-top: 10px;
-    width: 581px;
+    width: 100%;
     height: 550px;
+
 }
 
 /*
@@ -89,6 +97,13 @@ body {
     border-radius: 10px;
     color: #000000;
     font-size: 15px;
+}
+
+#upcoming-button:hover {
+    padding: 9px 19px;
+    border: 1px solid rgb(44, 214, 236);
+    background-color: orangered;
+    color: whitesmoke;
 }
 
 .artical-button-section a.active-button {
@@ -341,10 +356,12 @@ upcoming section design end */
 
     .header-picture img {
         width: 50%;
-        height: 50%;
+        height: 55%;
         text-align: center;
-        margin-left: 85px;
-        margin-top: 250px;
+        margin-left: 100px;
+        margin-top: 100px;
+        max-width: 100%;
+
     }
 
 
