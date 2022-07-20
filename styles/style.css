@@ -4,15 +4,27 @@ icon family added
 //--------- */
 @import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@1,300&family=Poppins:wght@500&display=swap');
 
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 
 body {
 
     font-family: 'Poppins', sans-serif;
+
 }
 
 /* 
  //-----------header section design
  //-------------- */
+.container {
+    width: 80em;
+    margin: auto;
+}
+
 
 .header-section {
     display: flex;
